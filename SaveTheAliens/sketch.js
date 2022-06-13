@@ -25,29 +25,29 @@ var spaceVelocity = 1
 var index;
 function preload() {
   //song
-  song1 = loadSound("/assets/songs/Clair_de_Lune.mp3");
-  song2 = loadSound("/assets/songs/Sonic_Blaster.mp3");
+  song1 = loadSound("/Assets/songs/Clair_de_Lune.mp3");
+  song2 = loadSound("/Assets/songs/Sonic_Blaster.mp3");
   //background
-    BackgroundImg = loadImage("/assets/Others/space.png");
+    BackgroundImg = loadImage("/Assets/Others/space.png");
   //motherNave
-    motherNaveImg = loadImage("/assets/NaveMotherImages/motherNave.png");
-    motherNaveDiyingAnmtn = loadAnimation("/assets/NaveMotherImages/motherDiying1.png",
-                                          "/assets/NaveMotherImages/motherDiying2.png",
-                                          "/assets/NaveMotherImages/motherDiying3.png",
-                                          "/assets/NaveMotherImages/motherDiying4.png",
-                                          "/assets/NaveMotherImages/MotherExplosion.png");
-    motherNave25 = loadImage("/assets/NaveMotherImages/motherNave25.png");
-    motherNave10 = loadImage("/assets/NaveMotherImages/motherNave10.png");
+    motherNaveImg = loadImage("/Assets/NaveMotherImages/motherNave.png");
+    motherNaveDiyingAnmtn = loadAnimation("/Assets/NaveMotherImages/motherDiying1.png",
+                                          "/Assets/NaveMotherImages/motherDiying2.png",
+                                          "/Assets/NaveMotherImages/motherDiying3.png",
+                                          "/Assets/NaveMotherImages/motherDiying4.png",
+                                          "/Assets/NaveMotherImages/MotherExplosion.png");
+    motherNave25 = loadImage("/Assets/NaveMotherImages/motherNave25.png");
+    motherNave10 = loadImage("/Assets/NaveMotherImages/motherNave10.png");
   //shooter
-    shooterImg = loadImage("/assets/ShooterImages/player.png");
-    shootingAnmtn = loadAnimation("/assets/ShooterImages/playerShine1.png","/assets/ShooterImages/playerShine2.png",
-                                  "/assets/ShooterImages/playerShine3.png","/assets/ShooterImages/playerShine4.png",
-                                  "/assets/ShooterImages/playerShine4.png","/assets/ShooterImages/playerShine4.png",
-                                  "/assets/ShooterImages/playerShine2.png","/assets/ShooterImages/playerShine1.png");
+    shooterImg = loadImage("/Assets/ShooterImages/player.png");
+    shootingAnmtn = loadAnimation("/Assets/ShooterImages/playerShine1.png","/assets/ShooterImages/playerShine2.png",
+                                  "/Assets/ShooterImages/playerShine3.png","/assets/ShooterImages/playerShine4.png",
+                                  "/Assets/ShooterImages/playerShine4.png","/assets/ShooterImages/playerShine4.png",
+                                  "/Assets/ShooterImages/playerShine2.png","/assets/ShooterImages/playerShine1.png");
   //meteor
-    meteorImg = loadImage("/assets/Others/meteoro.png");
+    meteorImg = loadImage("/Assets/Others/meteoro.png");
   //lightRay
-    lightRayImg = loadImage("/assets/Others/light.png");
+    lightRayImg = loadImage("/Assets/Others/light.png");
 }
 
 function setup() {
